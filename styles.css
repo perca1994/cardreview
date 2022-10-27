@@ -23,9 +23,9 @@ html body{
 .img-contenedor{
     background-color: transparent;
 }
-img{
+.img-escritorio{
     border-radius: 10px 0px 0px 10px;
-
+    height: 450px;
 }
 .img-movil{
     display: none;
