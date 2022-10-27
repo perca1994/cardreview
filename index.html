@@ -19,8 +19,10 @@
 <body>
 <div class="container">
 <section class="img-contenedor" role="contentinfo">
-  <img class="img-escritorio" src="images/image-product-desktop.jpg" height="450px" alt="product picture">
-  <img class="img-movil" src="images/image-product-mobile.jpg"  width="343px" alt="product movil">
+<picture>
+   <source media="(max-width: 599px)" srcset="./images/image-product-mobile.jpg">
+   <img src="./images/image-product-desktop.jpg" alt="picture produc">
+</picture>
 </section>
 <section class="text-contenedor" role="contentinfo">
    <p class="art" id="art1">PERFUME</p>
@@ -30,9 +32,10 @@
   Perfumer-Creator for the House of CHANEL.</p>
 
   <p class="descuento">$149.99</p>
+   <span class="sr-only">Old price: </span
   <p class="precio">$169.99</p>
 <div class="addcart">
-  <p class="btn"><img src="images/icon-cart.svg" alt="icon-cart">  Add to Cart</p>
+  <button class="btn"><img src="images/icon-cart.svg" alt aria-hidden="true">  Add to Cart</button>
 </div>
 </section>
 
