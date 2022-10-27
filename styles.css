@@ -1,0 +1,148 @@
+html body{
+    margin:c 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.text-contenedor, .img-contenedor{
+  width: 300px;
+  height: 450px;
+ text-align: center;
+ border-radius: 0px 10px 10px 0px;
+ background-color:  hsl(0, 0%, 100%);
+}
+.img-contenedor{
+    background-color: transparent;
+}
+img{
+    border-radius: 10px 0px 0px 10px;
+}
+.img-movil{
+    display: none;
+}
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%)
+}
+h1{
+    width: 206px;
+    font-family:'Fraunces', serif;
+    color:hsl(212, 21%, 14%);
+    float:left ;
+    clear: both;
+    margin-top: 0;
+    margin-left: 50px;
+    text-align: start;
+}
+.desc{
+    width: 220px;
+    float: left;
+    clear: both;
+    text-align: start;
+    margin-left: 50px;
+}
+.descuento{
+    font-family:'Fraunces', serif; 
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    }
+    .precio{
+        float: right;
+        clear: right;
+        text-decoration:line-through;
+        margin-right: 60px;
+        margin-top:25px;
+    }
+
+.icono, .btn{
+    color: hsl(0, 0%, 100%)
+}
+.btn{
+    width: 230px;
+    padding: 15px 5px;
+    background-color:hsl(158, 36%, 37%) ;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.art{
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+@media all and (max-width: 599px){
+.container{
+    width: 375px;
+    height: 667px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.img-escritorio{
+    display: none;
+}
+.img-movil{
+    display: inline;
+    border-radius:10px 10px 0px 0px;
+}
+
+.text-contenedor{
+    float:left;
+    margin-top: -210px;
+    width: 343px;
+    height: 371px;
+    margin-left: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.img-contenedor{
+    float: left;
+    margin: 28px 0px 0px 15px;
+   
+}
+#art1{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+h1{
+    width: 250px;
+    margin-left: 25px;
+}
+.desc{
+    width: 295px;
+    margin-left: 25px;
+}
+.icono, .btn{
+    color: hsl(0, 0%, 100%)
+}
+.btn{
+    width: 230px;
+    padding: 15px 30px;
+    margin-top: -10px;
+ 
+}
+.art{
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.descuento{
+    margin-left: 25px;
+    margin-top: 5px;
+    }
+    .precio{
+        margin-right: 120px;
+        margin-top:15px;
+    }
+}
