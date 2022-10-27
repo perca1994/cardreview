@@ -18,10 +18,10 @@
 </head>
 <body>
 <main class="container">
-<div class="img-contenedor" role="region" aria-labelledby="region1">
+<picture class="img-contenedor">
 <img class="img-escritorio" src="images/image-product-desktop.jpg" alt="product-picture">
-  <img class="img-movil" src="images/image-product-mobile.jpg" alt="product-movil"  >
-</div>
+  <source media="(max-width: 599px)" srcset="./images/image-product-mobile.jpg" class="img-movil">
+</picture>
 <div class="text-contenedor" role="region">
    <p class="art" id="art1">PERFUME</p>
   <h1>Gabrielle Essence Eau De Parfum</h1>
