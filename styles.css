@@ -73,6 +73,7 @@ h1{
 }
 .btn{
     width: 230px;
+    height:40px
     padding: 15px 5px;
     background-color:hsl(158, 36%, 37%) ;
     float: left;
