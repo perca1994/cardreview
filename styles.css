@@ -25,6 +25,7 @@ html body{
 }
 img{
     border-radius: 10px 0px 0px 10px;
+    height=450px;
 }
 .img-movil{
     display: none;
@@ -98,6 +99,7 @@ h1{
 .img-movil{
     display: inline;
     border-radius:10px 10px 0px 0px;
+    width="343px"
 }
 
 .text-contenedor{
